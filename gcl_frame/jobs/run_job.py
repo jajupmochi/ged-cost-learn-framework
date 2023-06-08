@@ -68,7 +68,7 @@ def get_job_script(args, device='cpu'):
 	# 	script += r"""
 	# python3 run_xps.py """ + ' '.join([r"""--""" + k + r""" """ + v for k, v in args.items()]) + r""" --stratified """ + stratified
 	script += r"""
-python3 xp_xps.py """
+python3 run_xps.py """
 # + ' '.join(
 	# 	['--' + k + ' ' + v for k, v in args.items() if k != 'model']
 	# )
