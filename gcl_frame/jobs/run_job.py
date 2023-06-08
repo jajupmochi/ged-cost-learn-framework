@@ -167,12 +167,12 @@ def get_job_script_cpu(id_str):
 #!/bin/bash
 
 ##SBATCH --exclusive
-#SBATCH --job-name=""" + '"' + prefix_kw + r""".""" + id_str + r""""
+#SBATCH --job-name=""" + '"' + prefix_kw + r""".cpu.""" + id_str + r""""
 #SBATCH --partition=epyc2 # @todo: to change it back
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=jajupmochi@gmail.com
-#SBATCH --output="outputs/""" + prefix_kw + r""".""" + id_str + r""".o%J"
-#SBATCH --error="errors/""" + prefix_kw + r""".""" + id_str + r""".e%J"
+#SBATCH --output="outputs/""" + prefix_kw + r""".cpu.""" + id_str + r""".o%J"
+#SBATCH --error="errors/""" + prefix_kw + r""".cpu.""" + id_str + r""".e%J"
 #
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
@@ -283,8 +283,8 @@ if __name__ == '__main__':
 	# 		continue
 	# 	else:
 	# 		output = os.system(command)
-   
-	command = get_job_script({}, device='gpu')
+
+	command = get_job_script({}, device='cpu')
 
 	if check_job_script(command, user='lj22u267'):
 		print('Job already submitted.')

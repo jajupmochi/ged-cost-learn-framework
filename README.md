@@ -8,9 +8,14 @@ The `ged-cost-learn-framework` project is the code for the paper [Bridging Disti
 
 ```
 python3 -m pip install graphkit-learn
+python3 -m pip install seaborn
 # The followings are required to run the GNN models:
-
+python3 -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+python3 -m pip install torch-geometric pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.0.0+cu118.html
 ```
+
+NVIDIA GPU and driver is required to run the GNN models. 
+Check [this tutorial](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) for more information.
 
 ### Install the library
 

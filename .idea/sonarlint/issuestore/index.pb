@@ -4,16 +4,12 @@
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 L
 .idea/codeStyles/Project.xml,6/e/6ecd6000a7b6f4a2884412ff19f74193ed089648
 T
 $.idea/codeStyles/codeStyleConfig.xml,d/d/dd7b3350c29c49497756c7f32c69a3bed18b1cba
 @
 requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
-S
-#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 w
 G.idea/sonarlint/issuestore/1/5/158e226e5f05c14fb9f1511c3b6793a04c885d4a,0/2/021734a77d9d1e6ba629558cf17145ea0bf392a8
 w
@@ -22,8 +18,6 @@ w
 G.idea/sonarlint/issuestore/7/0/7085ab11e6684e1a26b1b74349f288c6fcffac74,a/b/aba38e3a3bb0cf27150f0b698cae5a213277c010
 Å
 Q.idea/sonarlint/securityhotspotstore/1/5/158e226e5f05c14fb9f1511c3b6793a04c885d4a,b/8/b87293c0013f9a996ae7f5b60a3a4cabdea4e567
-]
--.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
 Å
 Q.idea/sonarlint/securityhotspotstore/2/4/24b6a2ca66e3610104090b85dda9d89cf9b600f9,0/7/0793a03af9ee143223279897f796b8f9815df153
 Å
