@@ -17,7 +17,7 @@ python3 -m pip install graphkit-learn
 ```
 git clone git@github.com:jajupmochi/ged-cost-learn-framework.git
 cd ged-cost-learning/
-python setup.py install develop
+python setup.py develop [--user]
 ```
 
 ### Run the code
