@@ -34,13 +34,13 @@ Align GEDs in graph space G and distances in an embedding space E:
 
 ![spaces-alignment](gcl_frame/figures/align_ged_n_embed_spaces.svg)
 
-### Results gallery
+## Results gallery
 
-## On prediction problems
+### On prediction problems
 
 Results on each dataset in terms of RMSE for regression and accuracy (in %) for classification, measured on the test sets. The "-" notation indicate that the method is not suitable for the dataset:
 
-## On the pre-image problem
+### On the pre-image problem
 
 Pre-images constructed by different algorithms for Letter-high with shortest path (SP) and structural shortest path (SSP) kernels:
 
