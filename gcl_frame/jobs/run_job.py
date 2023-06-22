@@ -69,7 +69,7 @@ def get_job_script(args, device='cpu'):
 	# python3 run_xps.py """ + ' '.join([r"""--""" + k + r""" """ + v for k, v in args.items()]) + r""" --stratified """ + stratified
 	script += r"""
 python3 run_xps.py """
-# + ' '.join(
+	# + ' '.join(
 	# 	['--' + k + ' ' + v for k, v in args.items() if k != 'model']
 	# )
 	script = script.strip()
@@ -119,45 +119,45 @@ cd """ + cur_path + r"""/../models/
 echo Working directory : $PWD
 echo Local work dir_file : $LOCAL_WORK_DIR
 """
-# 	script = r"""
-# #!/bin/bash
+	# 	script = r"""
+	# #!/bin/bash
 
-# # Not shared resources
-# ##SBATCH --exclusive
-# #SBATCH --job-name=""" + '"' + prefix_kw + r""".""" + id_str + r""""
-# #SBATCH --mail-type=ALL
-# #SBATCH --mail-user=jajupmochi@gmail.com
-# #SBATCH --output="outputs/""" + prefix_kw + r""".""" + id_str + r""".o%J"
-# #SBATCH --error="errors/""" + prefix_kw + r""".""" + id_str + r""".e%J"
-# #
-# # GPUs architecture and number
-# # ----------------------------
-# #SBATCH --partition=gpu_p100 # @todo: to change it back p100, v100
-# # GPUs per compute node
-# #   gpu:4 (maximum) for gpu_k80
-# #   gpu:2 (maximum) for gpu_p100
-# ##SBATCH --gres gpu:4
-# #SBATCH --gres gpu:1
-# # ----------------------------
-# # Job time (hh:mm:ss)
-# #SBATCH --time=48:00:00 # @todo: to change it back
-# ##SBATCH --ntasks=1
-# ##SBATCH --nodes=1
-# #SBATCH --cpus-per-task=1
-# #SBATCH --mem-per-cpu=4G
+	# # Not shared resources
+	# ##SBATCH --exclusive
+	# #SBATCH --job-name=""" + '"' + prefix_kw + r""".""" + id_str + r""""
+	# #SBATCH --mail-type=ALL
+	# #SBATCH --mail-user=jajupmochi@gmail.com
+	# #SBATCH --output="outputs/""" + prefix_kw + r""".""" + id_str + r""".o%J"
+	# #SBATCH --error="errors/""" + prefix_kw + r""".""" + id_str + r""".e%J"
+	# #
+	# # GPUs architecture and number
+	# # ----------------------------
+	# #SBATCH --partition=gpu_p100 # @todo: to change it back p100, v100
+	# # GPUs per compute node
+	# #   gpu:4 (maximum) for gpu_k80
+	# #   gpu:2 (maximum) for gpu_p100
+	# ##SBATCH --gres gpu:4
+	# #SBATCH --gres gpu:1
+	# # ----------------------------
+	# # Job time (hh:mm:ss)
+	# #SBATCH --time=48:00:00 # @todo: to change it back
+	# ##SBATCH --ntasks=1
+	# ##SBATCH --nodes=1
+	# #SBATCH --cpus-per-task=1
+	# #SBATCH --mem-per-cpu=4G
 
-# # environments
-# # ---------------------------------
-# # module load cuda/9.0
-# #module load -s python3-DL/3.8.5
-# module load python3-DL/keras/2.4.3-cuda10.1
-# module list
+	# # environments
+	# # ---------------------------------
+	# # module load cuda/9.0
+	# #module load -s python3-DL/3.8.5
+	# module load python3-DL/keras/2.4.3-cuda10.1
+	# module list
 
-# hostname
-# cd """ + cur_path + r"""/../models/
-# echo Working directory : $PWD
-# echo Local work dir_file : $LOCAL_WORK_DIR
-# """
+	# hostname
+	# cd """ + cur_path + r"""/../models/
+	# echo Working directory : $PWD
+	# echo Local work dir_file : $LOCAL_WORK_DIR
+	# """
 
 	return script
 

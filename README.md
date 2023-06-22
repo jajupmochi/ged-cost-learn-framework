@@ -15,7 +15,7 @@ python3 -m pip install torch-geometric pyg_lib torch_scatter torch_sparse torch_
 ```
 
 NVIDIA GPU and driver is required to run the GNN models. 
-Check [this tutorial](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) for more information.
+Check [this tutorial](https://zhuanlan.zhihu.com/p/634250809) for more information.
 
 ### Install the library
 
@@ -45,11 +45,13 @@ Align GEDs in graph space G and distances in an embedding space E:
 
 Results on each dataset in terms of RMSE for regression and accuracy (in %) for classification, measured on the test sets. The "-" notation indicate that the method is not suitable for the dataset:
 
+![prediction-results](gcl_frame/figures/gecl-pred-results.png)
+
 ### On the pre-image problem
 
 Pre-images constructed by different algorithms for Letter-high with shortest path (SP) and structural shortest path (SSP) kernels:
 
-![spaces-alignment](gcl_frame/figures/median_graphs_letter-h.svg)
+![pre-images-of-letters-medians](gcl_frame/figures/median_graphs_letter-h.svg)
 
 ## Authors
 

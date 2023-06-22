@@ -4,7 +4,7 @@ setup(
 	name='gcl_frame',
 	version='1.0.0',
 	packages=[''],
-	url='https://github.com/jajupmochi/ged-cost-learn2',
+	url='https://github.com/jajupmochi/ged-cost-learn-framework',
 	license='',
 	author='linlin',
 	author_email='linlin.jia@unibe.ch',
