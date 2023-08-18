@@ -1,9 +1,21 @@
-setuptools~=64.0.2
-numpy~=1.24.2
-sklearn~=0.0.post1
-scikit-learn~=1.2.1
-rdkit~=2022.9.5
-deepchem~=2.7.1
-pandas~=1.5.3
-scipy~=1.8.1
-matplotlib~=3.7.0
+numpy>=1.24.2
+scikit-learn>=1.2.1
+rdkit>=2022.9.5
+pandas>=1.5.3
+scipy>=1.8.1
+matplotlib>=3.7.0
+graphkit-learn>=0.2.1
+seaborn>=0.12.2
+#torch>=2.0.1+cpu
+torch>=2.0.1+cu118
+torchvision
+torchaudio
+--index-url https://download.pytorch.org/whl/cu118
+#torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+torch-geometric>=2.3.1
+pyg_lib
+torch_scatter
+torch_sparse
+torch_cluster
+torch_spline_conv
+-f https://data.pyg.org/whl/torch-2.0.0+cu118.html
