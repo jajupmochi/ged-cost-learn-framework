@@ -159,6 +159,15 @@ cython_debug/
 # figures:
 gcl_frame/figures/gcl_learn/
 
+# outputs:
+gcl_frame/models/outputs/
+gcl_frame/models/output*.txt
+gcl_frame/outputs/
+gcl_frame/models/*.pt*
+
+# datasets:
+gcl_frame/datasets/Redox/
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
