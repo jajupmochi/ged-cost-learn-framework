@@ -1,6 +1,8 @@
 # ged-cost-learning
 
-The `ged-cost-learn-framework` project is the code for the paper [Bridging Distinct Spaces in Graph-based Machine Learning](whatwhat?).
+The `ged-cost-learn-framework` project is the code for the paper 
+[Bridging Distinct Spaces in Graph-based Machine Learning](whatwhat?) accepted 
+by [ACPR 2023](https://ericlab.org/acpr2023/).
 
 ## How to use?
 
@@ -33,7 +35,13 @@ python3 gcl_frame/models/run_xps.py
 
 The outputs are in the `gcl_frame/models/outputs/` directory.
 
-### The illustration of align two spaces
+## Model illustrations
+
+### The GECL framework
+
+![gecl-framework](gcl_frame/figures/gecl_framework.svg)
+
+### Alignment of two spaces
 
 Align GEDs in graph space G and distances in an embedding space E:
 
@@ -71,5 +79,9 @@ If you have used this library in your publication, please cite the following pap
 
 ## Acknowledgments
 
-This research was supported by Swiss National Science Foundation (SNSF) Project No. 200021_188496. The authors would like to thank the COBRA lab (Chimie Organique Bioorganique: Réactivité et Analyse) and the ITODYS lab (Le laboratoire Interfaces Traitements Organisation et
+This research was supported by Swiss National Science Foundation (SNSF) Project 
+No. 200021_188496. The authors would like to thank [the COBRA lab](https://www.lab-cobra.fr/cobra/) 
+(Chimie Organique Bioorganique: Réactivité et Analyse) and 
+[the ITODYS lab](https://www.itodys.univ-paris-diderot.fr/fr/) 
+(Le laboratoire Interfaces Traitements Organisation et
 DYnamique des Systèmes) for providing the Redox dataset.
