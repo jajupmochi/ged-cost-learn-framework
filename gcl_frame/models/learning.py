@@ -46,9 +46,9 @@ def xp_knn(
 		optim_method='jia2021', embedding_space='y',
 		**kwargs
 ):
-	'''
+	"""
 	Perform a knn regressor on given dataset
-	'''
+	"""
 	import time
 	from sklearn.model_selection import ShuffleSplit, StratifiedShuffleSplit
 
