@@ -1,6 +1,9 @@
-# ged-cost-learning
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# ged-cost-learn-framework
+[![DOI](https://zenodo.org/badge/DOI/978-3-031-47637-2_1.svg)](https://doi.org/10.1007/978-3-031-47637-2_1)
+[![ACPR 2023](https://img.shields.io/badge/ACPR-2023-red)](https://ericlab.org/acpr2023/)
+[![HAL](https://img.shields.io/badge/HAL-04194644v2-purple)](https://normandie-univ.hal.science/LITIS/hal-04194644v2)
 ![License](https://img.shields.io/github/license/jajupmochi/ged-cost-learning.svg?color=blue)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![Stars](https://img.shields.io/github/stars/jajupmochi/ged-cost-learning?color=yellow)
 [![repo size](https://img.shields.io/github/repo-size/jajupmochi/ged-cost-learning.svg)](https://github.com/jajupmochi/ged-cost-learning/archive/master.zip) 
 [![jajupmochi](https://img.shields.io/twitter/follow/jajupmochi?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=jajupmochi) 
