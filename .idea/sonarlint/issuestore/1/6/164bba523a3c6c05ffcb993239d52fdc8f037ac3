@@ -1,17 +1,0 @@
-
-python:S11926"jDefine a constant instead of duplicating this literal '"mode" must be either "reg" or "classif".' 4 times.(º§ÎÊøÿÿÿÿ8Ô±ÒÄ„1
-=python:S125"Remove this commented out code.(úˆïÒ8Ô±ÒÄ„1
-=python:S125"Remove this commented out code.(Ÿ ›ó8Ô±ÒÄ„1
-spython:S3776!"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(ˆ×êÍ8Õ±ÒÄ„1
-=python:S125-"Remove this commented out code.(æÂ‡ª8Õ±ÒÄ„1
-=python:S1253"Remove this commented out code.(ÚŒÑ¢8Õ±ÒÄ„1
-=python:S125="Remove this commented out code.(æÂ‡ª8Õ±ÒÄ„1
-=python:S125C"Remove this commented out code.(ÚŒÑ¢8Õ±ÒÄ„1
-^python:S1172¤"9Remove the unused function parameter "read_gm_from_file".(×¥Å‚ÿÿÿÿÿ8Õ±ÒÄ„1
-ppython:S117œ"QRename this parameter "G_app" to match the regular expression ^[_a-z][a-z0-9_]*$.(çœ´§8Õ±ÒÄ„1
-qpython:S117œ"RRename this parameter "G_test" to match the regular expression ^[_a-z][a-z0-9_]*$.(çœ´§8Õ±ÒÄ„1
-Œpython:S107œ"mFunction "model_selection_for_precomputed_kernel" has 14 parameters, which is greater than the 13 authorized.(çœ´§8Õ±ÒÄ„1
-Xpython:S1481ó"8Remove the unused local variable "gram_matrix_app_best".(ÿÅ˜8Õ±ÒÄ„1
-Vpython:S1481÷"1Remove the unused local variable "run_time_best".(‘³«øşÿÿÿÿ8Õ±ÒÄ„1
-tpython:S3776›"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(×ÉÓ8Õ±ÒÄ„1
->python:S125°"Remove this commented out code.(àúÜ8Õ±ÒÄ„1
