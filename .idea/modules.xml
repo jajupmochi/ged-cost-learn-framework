@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/$PROJECT_DIR$.iml" filepath="$PROJECT_DIR$/.idea/$PROJECT_DIR$.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ged-cost-learn-framework.iml" filepath="$PROJECT_DIR$/.idea/ged-cost-learn-framework.iml" />
     </modules>
   </component>
 </project>
