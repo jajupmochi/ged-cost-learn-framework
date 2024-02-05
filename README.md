@@ -1,8 +1,12 @@
 # ged-cost-learning
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![License](https://img.shields.io/github/license/jajupmochi/ged-cost-learning.svg?color=blue)
+![Stars](https://img.shields.io/github/stars/jajupmochi/ged-cost-learning?color=yellow)
+[![repo size](https://img.shields.io/github/repo-size/jajupmochi/ged-cost-learning.svg)](https://github.com/jajupmochi/ged-cost-learning/archive/master.zip) 
+[![jajupmochi](https://img.shields.io/twitter/follow/jajupmochi?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=jajupmochi) 
 
 The `ged-cost-learn-framework` project is the code for the paper 
-[Bridging Distinct Spaces in Graph-based Machine Learning](whatwhat?) accepted 
-by [ACPR 2023](https://ericlab.org/acpr2023/).
+[Bridging Distinct Spaces in Graph-based Machine Learning](https://doi.org/10.1007/978-3-031-47637-2_1) ([preprint](https://www.researchgate.net/publication/374199943_Bridging_Distinct_Spaces_in_Graph-based_Machine_Learning)) published in the proceedings of [ACPR 2023](https://ericlab.org/acpr2023/).
 
 ## How to use?
 
@@ -24,7 +28,7 @@ Check [this tutorial](https://zhuanlan.zhihu.com/p/634250809) for more informati
 ```
 git clone git@github.com:jajupmochi/ged-cost-learn-framework.git
 cd ged-cost-learning/
-python setup.py develop [--user]
+python setup.py [develop] [--user]
 ```
 
 ### Run the code
@@ -33,13 +37,13 @@ python setup.py develop [--user]
 python3 gcl_frame/models/run_xps.py
 ```
 
-The outputs are in the `gcl_frame/models/outputs/` directory.
+The outputs will be in the `gcl_frame/models/outputs/` directory.
 
 ## Model illustrations
 
 ### The GECL framework
 
-![gecl-framework](gcl_frame/figures/gecl_framework.svg)
+![gecl-framework](gcl_frame/figures/gecl_framework_big.svg)
 
 ### Alignment of two spaces
 
@@ -71,10 +75,17 @@ Pre-images constructed by different algorithms for Letter-high with shortest pat
 
 ## Citation
 
-If you have used this library in your publication, please cite the following paper (Coming soon):
+If you have used this library in your publication, please cite the following paper:
 
 ```
-
+@inproceedings{jia2023bridging,
+  title={Bridging Distinct Spaces in Graph-Based Machine Learning},
+  author={Jia, Linlin and Ning, Xiao and Ga{\"u}z{\`e}re, Benoit and Honeine, Paul and Riesen, Kaspar},
+  booktitle={Asian Conference on Pattern Recognition},
+  pages={1--14},
+  year={2023},
+  organization={Springer}
+}
 ```
 
 ## Acknowledgments
